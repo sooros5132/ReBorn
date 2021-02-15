@@ -138,16 +138,16 @@ window.addEventListener("load", () => {
 			singBtn.classList.remove("disabled");
 			singBtn.classList.add("able");
 		}
-	})
+	});
 
 	//버튼 비활성화
 	singBtn.addEventListener('click', (e) => {
 		if (phoneConf){
 			sessionStorage.setItem( "resetPwdId", id );
-			alert(sessionStorage.getItem("resetPwdId"));
+//			alert(sessionStorage.getItem("resetPwdId"));
 			return;
-			}
+		}
 		e.preventDefault();
 		new ModalBox({content: "인증번호를 확인해주세요.",	cancelBtnHide: true});
-	})
+	});
 });
