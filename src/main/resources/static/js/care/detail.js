@@ -530,7 +530,7 @@ class CareDetail extends React.Component{
 		                    {
 		                        this.state.animalList?.length > 0
 		                        ? this.state.animalList.map(
-		                            animal => <li key={animal.noticeNo}><div><img src={animal.popfile} alt={animal.noticeNo} /></div><div>{animal.noticeNo}</div></li>
+		                            animal => <li key={animal.noticeNo}><div><a href={`../../animal/${animal.desertionNo}`}><img src={animal.popfile} alt={animal.noticeNo} /></a></div><div>{animal.noticeNo}</div></li>
 		                        )
 		                        : <li style={{flexGrow: 1, fontSize: "3vw"}} className="search-empty">보호중인 동물 없습니다</li>
 		                    }
