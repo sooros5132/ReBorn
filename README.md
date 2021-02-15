@@ -6,6 +6,8 @@
 
 #### 📑 소개
 
+[![2021 02 15 15 45 26 mp4_20210215_162759 349](https://user-images.githubusercontent.com/74892930/107917181-d85c8e80-6faa-11eb-8817-a472245cdfe0.jpg)](https://user-images.githubusercontent.com/74892930/107915267-8a925700-6fa7-11eb-856a-1bb3c162a796.mp4)
+
 유기 동물에 대한 관심을 재고시키기 위해 동물들의 이름을 지어주는 웹사이트입니다.
 -본 프로젝트는 풀스택 개발과정 수업의 복습을 위해 Spring boot 기반으로 작성되었습니다.-
 
@@ -45,7 +47,6 @@
 
 #### 🎞💻 주요기능
 
-
 ✅ 유기동물
 [![2021 02 15 15 45 26 mp4_20210215_162759 349](https://user-images.githubusercontent.com/74892930/107917181-d85c8e80-6faa-11eb-8817-a472245cdfe0.jpg)](https://user-images.githubusercontent.com/74892930/107915267-8a925700-6fa7-11eb-856a-1bb3c162a796.mp4)
 
@@ -53,7 +54,8 @@
 
 ✅ 보호소
 
-// 검색 및 리뷰
+[![2021 02 15 15 47 45 mp4_20210215_160338 365](https://user-images.githubusercontent.com/74892930/107915352-ab5aac80-6fa7-11eb-9356-b9b81396480e.jpg)](https://user-images.githubusercontent.com/74892930/107915269-8c5c1a80-6fa7-11eb-8d6f-ba56724806fb.mp4)
+[![2021 02 15 15 51 24 mp4_20210215_160359 572](https://user-images.githubusercontent.com/74892930/107915353-ab5aac80-6fa7-11eb-9203-f41559210c68.jpg)](https://user-images.githubusercontent.com/74892930/107915271-8cf4b100-6fa7-11eb-81fe-75c949e986f5.mp4)
 
 ✅ 커뮤니티
 
@@ -97,18 +99,3 @@ https://user-images.githubusercontent.com/73972924/107925596-fda3c980-6fb7-11eb-
 
 ![title](/img/myImg.png){: width="100%" height="100%"}
 ![title](https://imgur.com/gfXbJSe){: width="100%" height="100%"}
-
-
-
-
-
-
-
-
-
-
-
-[![2021 02 15 15 45 26 mp4_20210215_162759 349](https://user-images.githubusercontent.com/74892930/107917181-d85c8e80-6faa-11eb-8817-a472245cdfe0.jpg)](https://user-images.githubusercontent.com/74892930/107915267-8a925700-6fa7-11eb-856a-1bb3c162a796.mp4)
-https://user-images.githubusercontent.com/74892930/107915269-8c5c1a80-6fa7-11eb-8d6f-ba56724806fb.mp4
-[![2021 02 15 15 47 45 mp4_20210215_160338 365](https://user-images.githubusercontent.com/74892930/107915352-ab5aac80-6fa7-11eb-9356-b9b81396480e.jpg)](https://user-images.githubusercontent.com/74892930/107915269-8c5c1a80-6fa7-11eb-8d6f-ba56724806fb.mp4)
-[![2021 02 15 15 51 24 mp4_20210215_160359 572](https://user-images.githubusercontent.com/74892930/107915353-ab5aac80-6fa7-11eb-9203-f41559210c68.jpg)](https://user-images.githubusercontent.com/74892930/107915271-8cf4b100-6fa7-11eb-81fe-75c949e986f5.mp4)
