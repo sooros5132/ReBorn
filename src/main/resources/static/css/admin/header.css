@@ -44,12 +44,12 @@
         	color: white;
         	font-size: 11px;
         }
-        	 .header > .login-menu .loginName-box > .loginName {
+        	 .header > .login-menu .loginName-box > .loginName  {
 	        	font-weight: bold;
 	        }
 	        
     
-    .header > .title{         
+    .header  .title{         
         flex-shrink: 1;      /* �굹癒몄� 怨듬갚 �쁺�뿭�뿉 �뵲�씪 �겕湲곌� 寃곗젙 �릺吏�留� */      
         min-width: 200px;    /* 理쒖냼 200px 誘몃쭔�쑝濡쒕뒗 �븞以꾩뼱�뱾�쓬 */
         flex-grow: 1;       /* �젣紐⑸쭔 怨듬갚 �쁺�뿭 李⑥��븷 寃�*/
@@ -65,4 +65,7 @@
         --padding-right: 20px;
     }
 
-
+.loginInfo {
+	font-size: 14px;
+	margin-bottom: 5px;
+}
