@@ -32,7 +32,7 @@
 				<!-- 물리주소 안됨 프로젝트로부터 갖고와야됨 -->
 				<div class="loginName-box">
 				<div class="loginInfo">
-					<span class="loginName">${loginId}</span> <span>님 반가워요!&emsp; </span>
+					<span class="loginName"><a href="/mypage/info">${loginId}</a></span> <span>님 반가워요!&emsp; </span>
 					</div>
 					<button class="bg-button-s login">
 						<a href="/member/logout">LOGOUT</a>

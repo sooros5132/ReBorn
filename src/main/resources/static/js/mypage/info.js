@@ -27,7 +27,7 @@ window.addEventListener("load", () => {
 	
 	let idInput = form.querySelector(".loginId");
 	let id = idInput.value;
-	// 폰 번호 변경 시에만 인증하도록
+/*	// 폰 번호 변경 시에만 인증하도록
 	phone.addEventListener("input", () => {
 		let or;
 		//데이터 확인
@@ -39,18 +39,18 @@ window.addEventListener("load", () => {
 				console.log(text);
 				if (text < 1) {
 					console.log("변경없음");
-			/*		idInput.style["margin-bottom"] = "5px";
-					result.classList.remove("d-none");*/
+					idInput.style["margin-bottom"] = "5px";
+					result.classList.remove("d-none");
 				}
 				else {
-		/*			idInput.style["margin-bottom"] = "22px";
-					result.classList.add("d-none");*/
+					idInput.style["margin-bottom"] = "22px";
+					result.classList.add("d-none");
 					console.log(text);
 				}
 			});
 
 
-	})
+	})*/
 	confBtn.onclick = () => {
 
 		let request = new XMLHttpRequest();
