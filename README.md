@@ -60,7 +60,10 @@
 // 
 
 ✅ 회원 관리
-![image](https://user-images.githubusercontent.com/73972924/107926036-8cb0e180-6fb8-11eb-8bc4-7be51cdea57b.png)(https://user-images.githubusercontent.com/74892930/107915267-8a925700-6fa7-11eb-856a-1bb3c162a796.mp4)
+![image](https://user-images.githubusercontent.com/73972924/107926036-8cb0e180-6fb8-11eb-8bc4-7be51cdea57b.png)
+![image](https://user-images.githubusercontent.com/73972924/107926174-b538db80-6fb8-11eb-891c-9bafc84750dd.png)
+
+https://user-images.githubusercontent.com/73972924/107925596-fda3c980-6fb7-11eb-8045-41c9c438e345.mp4
 
 ✅ 동물 상식 정보 제공
 
