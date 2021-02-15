@@ -85,7 +85,7 @@
 ### 2. 개발후기
 
 - 최은희
-
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile7.uf.tistory.com%2Fimage%2F24283C3858F778CA2EFABE" width="450px" height="300px" alt="RubberDuck"></img><br/>
 - 박현민
 - 황영걸
 - 정혜진
