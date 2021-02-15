@@ -71,7 +71,8 @@
 			
 			<s:authorize access="isAuthenticated()">
 			<div>
-	<!-- 		<div><a href="/member/info/message">쪽지함</a>  /   --><button><a href="/mypage/info">${loginId}</a></button><!-- </div> -->
+	<!-- 		<div><a href="/member/info/message">쪽지함</a>  /   --><span class="loginName">${loginId}</span>
+	       				<span>님 반가워요!&emsp; </span> <!-- </div> -->
 				<button>
 					<a href="/member/logout">LOGOUT</a>
 				</button>
