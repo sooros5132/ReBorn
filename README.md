@@ -51,7 +51,6 @@
 // 동물 목록
 
 // 이름 추가 및 투표
-<img src="https://photos.google.com/photo/AF1QipPL2lH6Udl9Q2sa4cbKlfhnxAC3ss4HexdjNgUy" width="450px" height="300px" alt="RubberDuck"></img><br/>
 
 ✅ 보호소
 
@@ -86,7 +85,7 @@
 ### 2. 개발후기
 
 - 최은희
-<img src="https://photos.google.com/photo/AF1QipPL2lH6Udl9Q2sa4cbKlfhnxAC3ss4HexdjNgUy" width="450px" height="300px" alt="RubberDuck"></img><br/>
+<img srcset="https://photos.google.com/photo/AF1QipPL2lH6Udl9Q2sa4cbKlfhnxAC3ss4HexdjNgUy" width="450px" height="300px" alt="RubberDuck"></img><br/>
 - 박현민
 - 황영걸
 - 정혜진
