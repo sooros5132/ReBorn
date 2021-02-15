@@ -13,4 +13,5 @@
 ![테슷두](https://i.imgur.com/gfXbJSe.gifv)
 
 // dudrjffla
-https://photos.google.com/photo/AF1QipPL2lH6Udl9Q2sa4cbKlfhnxAC3ss4HexdjNgUy
+
+<img src="https://photos.google.com/photo/AF1QipPL2lH6Udl9Q2sa4cbKlfhnxAC3ss4HexdjNgUy" width="700" height="550" >
