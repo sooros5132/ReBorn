@@ -58,8 +58,9 @@
 [![2021 02 15 15 51 24 mp4_20210215_160359 572](https://user-images.githubusercontent.com/74892930/107915353-ab5aac80-6fa7-11eb-9203-f41559210c68.jpg)](https://user-images.githubusercontent.com/74892930/107915271-8cf4b100-6fa7-11eb-81fe-75c949e986f5.mp4)
 
 ✅ 커뮤니티
+![image](https://i.esdrop.com/d/b086WqGLyH.png)
+![image](https://i.esdrop.com/d/z6zwjmAFPf.png)
 
-// 
 
 ✅ 회원 관리
 ![image](https://user-images.githubusercontent.com/73972924/107926036-8cb0e180-6fb8-11eb-8bc4-7be51cdea57b.png)
