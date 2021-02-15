@@ -51,6 +51,7 @@
 // 동물 목록
 
 // 이름 추가 및 투표
+<img src="https://photos.google.com/photo/AF1QipPL2lH6Udl9Q2sa4cbKlfhnxAC3ss4HexdjNgUy" width="450px" height="300px" alt="RubberDuck"></img><br/>
 
 ✅ 보호소
 
