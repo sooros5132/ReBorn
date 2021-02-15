@@ -48,7 +48,7 @@
 
 ✅ 유기동물
 
-// 동물 목록
+![유기동물 목록](https://user-images.githubusercontent.com/67853050/107916610-e78f0c80-6fa9-11eb-90a5-6abc0cb63c86.gif)
 
 // 이름 추가 및 투표
 
@@ -85,7 +85,6 @@
 ### 2. 개발후기
 
 - 최은희
-<img srcset="https://photos.google.com/photo/AF1QipPL2lH6Udl9Q2sa4cbKlfhnxAC3ss4HexdjNgUy" width="450px" height="300px" alt="RubberDuck"></img><br/>
 - 박현민
 - 황영걸
 - 정혜진
