@@ -63,7 +63,7 @@
 
 ✅ 동물 상식 정보 제공
 
-[![2021 02 15 15 45 26 mp4_20210215_162759 349](https://user-images.githubusercontent.com/74892930/107917181-d85c8e80-6faa-11eb-8817-a472245cdfe0.jpg)](https://user-images.githubusercontent.com/41726750/107925530-e9f86300-6fb7-11eb-902d-c78e93f45955.mp4)
+[![2021 02 15 15 45 26 mp4_20210215_162759 349](https://user-images.githubusercontent.com/41726750/107926179-b66a0880-6fb8-11eb-8626-f70611e043d1.png)](https://user-images.githubusercontent.com/41726750/107925530-e9f86300-6fb7-11eb-902d-c78e93f45955.mp4)
 
 #### 👨‍🦲 맡은 역할 및 기능
 
