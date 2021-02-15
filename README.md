@@ -19,29 +19,29 @@
 
 ⚙ 개발환경
 
-1️⃣ 기획, 설계, 일정관리
+ 1️⃣ 기획, 설계, 일정관리
 
-- google presentation, ER-win, Trello
+  - google presentation, ER-win, Trello
 
-2️⃣ Front-end
+ 2️⃣ Front-end
 
-- HTML/CSS, Java Script(es6), React.js, Three.js, JQuery
+  - HTML/CSS, Java Script(es6), React.js, Three.js, JQuery
 
-3️⃣ Back-end
+ 3️⃣ Back-end
 
-- Java, Spring Boot, Maven, MyBatis
+  - Java, Spring Boot, Maven, MyBatis
 
-4️⃣ DBMS
+ 4️⃣ DBMS
 
-- MySQL
+  - MySQL
 
-5️⃣ IDE
+ 5️⃣ IDE
 
-- Spring Boot suite, VsCode
+  - Spring Boot suite, VsCode
 
-6️⃣ 형상 관리 툴
+ 6️⃣ 형상 관리 툴
 
-- Git
+  - Git
 
 🎞💻 주요기능
 
