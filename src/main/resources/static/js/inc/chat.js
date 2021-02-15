@@ -87,7 +87,7 @@ window.addEventListener('load', ()=>{
 			.then(response =>response.json())
 			.then(json => {
 				console.log(json);
-				//chatList.innerHTML="";
+				chatList.innerHTML="";
 				
 				for(let n of json){
 					let li;

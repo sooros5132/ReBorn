@@ -1,7 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>    
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>   
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %> 
 <link href="/css/community/reset.css" type="text/css" rel="stylesheet" />
 <link href="/css/community/community-style.css" type="text/css" rel="stylesheet" />
 <link href="/css/community/edit.css" type="text/css" rel="stylesheet" />
@@ -42,8 +43,8 @@
 							${b.content}
 		                </textarea>	                                       
 	                </section>
-	                <div class="file-box mt10">
-		                 	<img src="/upload/community/2021/${b.id}/${b.files}" alt="">		
+	                <div class="file-box mt10"> 
+		                 <img src="/upload/community/2021/${b.id}/${b.files}" alt="">		
                		</div> 
 	
 	            <div class="transfer-button-box mt60">

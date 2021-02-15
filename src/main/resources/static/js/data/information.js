@@ -41,13 +41,13 @@ window.addEventListener('load', (e)=>{
 					if(json.imgUrlList[n.id]){
 						imgbox = `<div class="info-img-box" style="background-image:url(${json.imgUrlList[n.id]})"></div>`
 					}
-					
+					let date = getFormatDate(new Date(n.regDate));
 					let li =`<li>
 						${imgbox}
 						<div class="info-txt-box">
 		                     <ul class="info-ex">
 		                         <li>#${n.cateName}</li>
-		                         <li><fmt:formatDate value="${n.regDate}" pattern="yyyy-MM-dd" /></li>
+		                         <li>${date}</li>
 		                         <li>조회수 ${n.hitCnt}</li>
 		                     </ul>
 		                     <a href ="${n.id}">
@@ -130,12 +130,13 @@ window.addEventListener('load', (e)=>{
 					if(json.imgUrlList[n.id]){
 						imgbox = `<div class="info-img-box" style="background-image:url(${json.imgUrlList[n.id]})"></div>`
 					}
+					let date = getFormatDate(new Date(n.regDate));
 					let li =`<li>
 						${imgbox}
 						<div class="info-txt-box">
 		                     <ul class="info-ex">
 		                         <li>#${n.cateName}</li>
-		                         <li><fmt:formatDate value="${n.regDate}" pattern="yyyy-MM-dd" /></li>
+		                         <li>${date}</li>
 		                         <li>조회수 ${n.hitCnt}</li>
 		                     </ul>
 		                     <a href ="${n.id}">
@@ -222,12 +223,13 @@ window.addEventListener('load', (e)=>{
 							imgbox = `<div class="info-img-box" style="background-image:url(${json.imgUrlList[n.id]})"></div>`
 						}
 						
+						let date = getFormatDate(new Date(n.regDate));
 						let li =`<li>
 							${imgbox}
 							<div class="info-txt-box">
 			                     <ul class="info-ex">
 			                         <li>#${n.cateName}</li>
-			                         <li><fmt:formatDate value="${n.regDate}" pattern="yyyy-MM-dd" /></li>
+			                         <li>${date}</li>
 			                         <li>조회수 ${n.hitCnt}</li>
 			                     </ul>
 			                     <a href ="${n.id}">
@@ -317,12 +319,13 @@ window.addEventListener('load', (e)=>{
 							imgbox = `<div class="info-img-box" style="background-image:url(${json.imgUrlList[n.id]})"></div>`
 						}
 						
+						let date = getFormatDate(new Date(n.regDate));
 						let li =`<li>
 							${imgbox}
 							<div class="info-txt-box">
 			                     <ul class="info-ex">
 			                         <li>#${n.cateName}</li>
-			                         <li><fmt:formatDate value="${n.regDate}" pattern="yyyy-MM-dd" /></li>
+			                         <li>${date}</li>
 			                         <li>조회수 ${n.hitCnt}</li>
 			                     </ul>
 			                     <a href ="${n.id}">
@@ -383,6 +386,19 @@ window.addEventListener('load', (e)=>{
 		}
 		
 	})
+	
+	function getFormatDate(data){
+		let year = data.getFullYear();
+		let month = (1 + data.getMonth());
+		month = month >= 10 ? month : '0' + month;
+		let day = data.getDate();
+		
+		data = data>=10 ? data:'0' + day;
+		return year +'-' + month + '-' + day;
+	}
+	
+	
+
 
 
 })

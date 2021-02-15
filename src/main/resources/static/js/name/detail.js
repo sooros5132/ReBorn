@@ -68,7 +68,8 @@ window.addEventListener("load", (e)=>{
 
 
 	if(revoteBtn != null) {
-		revoteBtn.addEventListener("click", (e)=>{			
+		revoteBtn.addEventListener("click", (e)=>{		
+			e.preventDefault();	
 			modalBox =  new ModalBox({
 				content: "투표 취소 시 획득 한 포인트 10점이 감소됩니다.<br>다시 투표 하시겠습니까?",
 				contentPadding: true,

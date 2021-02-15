@@ -25,6 +25,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 		http
 		.authorizeRequests()
 				.antMatchers("/name/**","/mypage/*","/report/write","/report/*/edit","/member/info/message").hasAnyRole("MEMBER","ADMIN")       //모두검사 
+				.antMatchers("/admin").hasAnyRole("ADMIN")       //모두검사
 				.antMatchers("/**").permitAll()           //  어떤 사용자든 다 들어가야하는 곳. `
 				
 				.and()

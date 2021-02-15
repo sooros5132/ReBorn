@@ -35,4 +35,6 @@ public interface MemberService {
 
 	List<Member> getList();
 
+	int checkPhone(String id,String phone);
+
 }

@@ -226,6 +226,7 @@ window.addEventListener("load", (e)=>{
 	  });//then end		
 		
 	}//load() end
+});// window end
 	
 	/*
 	
@@ -343,4 +344,4 @@ window.addEventListener("load", (e)=>{
 	}); //pager end 
 	
 	*/
-});// window end
+

@@ -74,7 +74,7 @@
     }
     .content{
         color: rgb(146, 146, 146);
-        height: 88px;
+        height: 86px;
         overflow: hidden;
     }
     .meta{
@@ -186,4 +186,5 @@
 	width: 150px;
 	height: 150px;
 }
+
 

@@ -61,7 +61,7 @@ public class AuthenticationSuccessHandler
 				String returnURL = savedRequest.getRedirectUrl();
 				redirectStrategy.sendRedirect(request, response, returnURL);
 			} else if (authorities.contains("ROLE_ADMIN")) {
-				redirectStrategy.sendRedirect(request, response, "/main");
+				redirectStrategy.sendRedirect(request, response, "/admin/chat/link");
 			} else if (authorities.contains("ROLE_MEMBER")) {
 				redirectStrategy.sendRedirect(request, response, "/main");
 			} else { // throw

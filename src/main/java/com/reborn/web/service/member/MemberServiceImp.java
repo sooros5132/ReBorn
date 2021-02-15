@@ -147,4 +147,16 @@ public class MemberServiceImp implements MemberService{
 		// TODO Auto-generated method stub
 		return memberDao.getList();
 	}
+
+	@Override
+	public int checkPhone(String loginId,String phone) {
+		
+		Member m = memberDao.get(loginId);
+
+		if(phone.equals(m.getPhone())) 
+			return 1;
+		else
+			return 0;
+			
+	}
 }

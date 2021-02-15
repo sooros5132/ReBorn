@@ -36,7 +36,7 @@ $(document).ready( e=>{
 				if (data.success == true) {
 					let infoHTML = `이름 등록이 완료 되었습니다.<br>
 									${data.newPoint}포인트를 추가적으로 획득하셨습니다.<br>
-									참여해주셔서 감사합니다.(현재 포인트 : ${data.point})`;
+									참여해주셔서 감사합니다.(현재 포인트 : ${data.point + data.newPoint})`;
 
 					new ModalBox({
 						content: infoHTML,

@@ -224,70 +224,71 @@ public class BoardController {
 		Board lastId = service.getLastId();
 		int newBoardId = lastId.getId()+1;
 		board.setId(newBoardId);
+		System.out.println(newBoardId);
 		//멤버ID는 멤버가 주는 값으로 수정해야 함.		
 		board.setMemberId(memberId);
+		String fileName = ""; 
+				
+		if(filePart != null) {
+			fileName = filePart.getSubmittedFileName();
+			board.setFiles(fileName);
 		
-//		if(filePart != null) {
-//			String fileName = filePart.getSubmittedFileName();
-//			board.setFiles(fileName);
-//			
-//			String pathTemp = request.getServletContext().getRealPath("/uploadFiles/board/2021/"+newBoardId+"/");
-//			System.out.println(pathTemp);
-//			
-//			File path = new File(pathTemp);
-//			if(!path.exists())	
-//				path.mkdirs();
-//			
-//			String filePath = pathTemp + File.separator + fileName;
-//			
-//			InputStream fis = filePart.getInputStream();
-//			FileOutputStream fos = new FileOutputStream(filePath);
-//			
-//			byte[] buf = new byte[1024];
-//			int size = 0;
-//			while((size = fis.read(buf)) != -1)
-//					fos.write(buf, 0, size);
-//			
-//			fos.close();
-//			fis.close();
-//		}//end if
-		
-		
-		Collection<Part> fileParts = request.getParts();
-		String fileName = "";
-		String fileNames = "";
-		for(Part p : fileParts) {
-			if(p.getName().equals("file") && p.getSize()>0 ) {
-				filePart = p;
-				fileName = filePart.getSubmittedFileName();
-				fileNames += fileName;
-				fileNames += ",";
-				
-				String url = "/upload/community/2021/"+newBoardId;
-				String pathTemp = request.getServletContext().getRealPath(url);
-				System.out.println("pathTemp"+pathTemp);
-				
-				File path = new File(pathTemp);
-				if(!path.exists())
-						path.mkdirs();
-				
-				String filePath = pathTemp + File.separator + fileName;
-				System.out.println(filePath);
-				
-				InputStream fis = filePart.getInputStream();
-				FileOutputStream fos = new FileOutputStream(filePath);
-				
-				byte[] buf = new byte[1024];
-				int size = 0;
-				while((size = fis.read(buf)) != -1)
-						fos.write(buf, 0, size);
-				
-				fos.close();
-				fis.close();
-			}
-		}
+			String pathTemp = request.getServletContext().getRealPath("/upload/community/2021/"+newBoardId);
+			System.out.println("파일경로"+pathTemp);
 			
-		board.setFiles(fileNames);
+			File path = new File(pathTemp);
+			if(!path.exists())	
+				path.mkdirs();
+			
+			String filePath = pathTemp + File.separator + fileName;
+			
+			InputStream fis = filePart.getInputStream();
+			FileOutputStream fos = new FileOutputStream(filePath);
+			
+			byte[] buf = new byte[1024];
+			int size = 0;
+			while((size = fis.read(buf)) != -1)
+					fos.write(buf, 0, size);
+			
+			fos.close();
+			fis.close();
+		}//end if
+		
+//		Collection<Part> fileParts = request.getParts();
+//		String fileName = "";
+//		String fileNames = "";
+//		for(Part p : fileParts) {
+//			if(p.getName().equals("file") && p.getSize()>0 ) {
+//				filePart = p;
+//				fileName = filePart.getSubmittedFileName();
+//				fileNames += fileName;
+//				fileNames += ",";
+//				
+//				String url = "/upload/community/2021/"+newBoardId;
+//				String pathTemp = request.getServletContext().getRealPath(url);
+//				System.out.println("pathTemp"+pathTemp);
+//				
+//				File path = new File(pathTemp);
+//				if(!path.exists())
+//						path.mkdirs();
+//				
+//				String filePath = pathTemp + File.separator + fileName;
+//				System.out.println(filePath);
+//				
+//				InputStream fis = filePart.getInputStream();
+//				FileOutputStream fos = new FileOutputStream(filePath);
+//				
+//				byte[] buf = new byte[1024];
+//				int size = 0;
+//				while((size = fis.read(buf)) != -1)
+//						fos.write(buf, 0, size);
+//				
+//				fos.close();
+//				fis.close();
+//			}
+//		}
+			
+		board.setFiles(fileName);
 				
 		service.insert(board);
 		

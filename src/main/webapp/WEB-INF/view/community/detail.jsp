@@ -22,13 +22,14 @@
                         </span>
                         <c:if test="${b.memberId == sessionScope.id}">
                         	<a class="edit-btn bar mr10" href="${b.id}/edit">수정</a>
-                        	<a class="delete-btn" href="${b.id}/del">삭제</a>
+                        	<a class="delete-btn" >삭제</a>
+                        	<%-- href="${b.id}/del" --%>
                         </c:if>
                         
                         
                     </div>
-                    게시글의 멤버: ${b.memberId} </br>
-                    게시글의  id: ${b.id}
+                    <%-- 게시글의 멤버: ${b.memberId} </br>
+                    게시글의  id: ${b.id} --%>
                 </section>
                 <!-- 파일업로드 -->
                 <c:if test="${not empty b.files}">

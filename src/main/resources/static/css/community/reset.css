@@ -61,7 +61,7 @@ a{
 	color:inherit;
 }
 a:hover{
-	text-decoration: underline;
+	text-decoration:none !important;
 }
 
 /* 버튼 */

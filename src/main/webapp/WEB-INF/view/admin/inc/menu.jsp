@@ -21,7 +21,7 @@ window.addEventListener("load", function() {
 	    } 
 	  });
 	}
-});
+}); 
 </script>
 </head>
 <body>
@@ -30,14 +30,20 @@ window.addEventListener("load", function() {
 	    <ul class="main-menu">
 	        <li>
 	            <div class="first-menu">
-	           		<i class="fas fa-users menu-img"></i>
-	                <a href="#">MEMBER</a>    
+	            	<i class="fas fa-link menu-img"></i>
+	                <a href="/admin/chat/link">챗팅 링크 관리</a>    
 	            </div>           
-	            <ul class="second-menu">
+	     <!--        <ul class="second-menu">
 	                <li><a href="/admin/member/list">회원 목록</a></li>
 	                <li><a href="/admin/member/add">회원 추가</a></li>
 	                <li><a href="/admin/member/message/list">메세지 목록</a></li>
-	            </ul>
+	            </ul> -->
+	        </li>
+	        <li>
+        	   <div class="first-menu">
+	           		<i class="fas fa-users menu-img"></i>
+	                <a href="/admin/chat/list">챗팅 대화 관리</a>    
+	            </div>  
 	        </li>
 	    </ul>
 	</nav> 

@@ -87,6 +87,15 @@ public class MemberController {
 	public void checkId(@RequestParam("id") String id, HttpServletResponse response) throws Exception {
 		service.checkId(id, response);
 	}
+	
+	// 휴대폰 변경 검사
+	@PostMapping("/get-phone")
+	public String getPhone(@RequestParam("loginId") String loginId,@RequestParam("phoen") String phoen, HttpServletResponse response)  throws Exception{
+		System.out.println("하하");
+		//System.out.println(service.getPhone(id));
+		int check=service.checkPhone(loginId, phoen);
+		return	Integer.toString(check);
+	}
 
 	// 이메일 중복 검사
 	@PostMapping("/check-email")

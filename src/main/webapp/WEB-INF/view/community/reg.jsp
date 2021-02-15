@@ -40,13 +40,13 @@
 	                    </div><!-- contenteditable="true" -->
 	                  
 					<!-- 드래그 앤 드랍 방식 -->
-	                 	<div class="drop-box mt10">
+	                 	<!-- <div class="drop-box mt10">
 	                 		업로드 할 파일을 드롭하세요.
 	                 		<input type="file" />
 	                 	</div>
-	                 	<div class="drop-file-name mt5">
+	                 	<div class="drop-file-name mt5"></div> -->
 	                 	
-	                 	</div>
+	                 	
 	                 	
 	                 	
 	                 
@@ -57,9 +57,9 @@
 		                    <span class="file-name"></span>		                    
 	                    </div>
 	                    	                    
-	                    <div>
+	                    <!-- <div>
 	                    	<input class="mt10 add-button" type="button" value="add" />
-	                    </div>
+	                    </div> -->
 	                    
 	                 <!-- 내용입력부분 -->   
 	                    <div class="article-content mt30">

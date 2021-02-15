@@ -15,13 +15,13 @@
 
 <c:set var="offset" value="${(page-1)%5}"> </c:set>
 <c:set var="startNum" value="${page-offset}"> </c:set>
-<div>
+<%-- <div>
 	offset: ${offset} </br>
 	startNum: ${startNum} </br>
 	param.p: ${param.p} </br>
 	전체페이지 수pageCount: ${pageCount} </br>
 	param.f: ${param.f}
-</div>
+</div> --%>
 
 	<section class="main-container">
             <!-- <div class="major-subject mt20">
