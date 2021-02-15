@@ -63,7 +63,7 @@
 ✅ 회원 관리
 
 ✅ 동물 상식 정보 제공
-![동물 기본 상식](https://blog.kakaocdn.net/dn/bvpT5d/btqXobxjBhl/VpKkir0jxAFfcMa4dNUPFK/img.gif)
+
 
 
 👨‍🦲 맡은 역할 및 기능
